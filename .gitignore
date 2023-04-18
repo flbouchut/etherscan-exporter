@@ -1,0 +1,11 @@
+# misc
+.DS_Store
+
+# Secret keys
+.env 
+
+# Output file
+output.csv
+
+# Dependencies
+/node_modules
