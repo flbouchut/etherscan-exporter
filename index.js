@@ -6,7 +6,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 // Address to extract the data from
-const address = "0x19f494583c7c933be7b0ee58104ddafac1e8adfa";
+const address = "0x4D9fF50EF4dA947364BB9650892B2554e7BE5E2B";
 
 // First block of the extract, below it corresponds to 01-01-2022, 00:00:00 CEST
 const startblock = "13915898";
@@ -108,7 +108,6 @@ const main = async () => {
                     i++;
                 }
                 let numberOfLinesToRemove = includedTxForLastBlock.length;
-                //console.log("linestoremove: ", numberOfLinesToRemove);
 
                 for (let i = 0; i < numberOfLinesToRemove; i++) {
                     result.pop();
